@@ -3,6 +3,9 @@
 
 ## How to install
 
+Check node.js version:
+> node
+
 Download **16.5.0 LTS**
 
 ## Information

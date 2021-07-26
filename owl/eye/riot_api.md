@@ -12,7 +12,7 @@ https://developer.riotgames.com/docs/lol#league-client-api
 https://developer.riotgames.com/docs/lol#game-client-api_replay-api
 
 ## Rules and policies
-[Policies](https://developer.riotgames.com/policies/general )
+[Policies](https://developer.riotgames.com/policies/general)
 [Terms](https://developer.riotgames.com/terms)
 [Legal](https://www.riotgames.com/en/legal)
 
