@@ -2,6 +2,21 @@
 __pycache__
 venv
 ignore_*
+
+# Nodejs and Express
 package-lock.json
 package.json
 node_modules/
+
+# In progress
+src/index.html
+CONTRIBUTIONS.md
+
+# Personal TO DO
+todo.md
+
+# Heroku
+Procfile
+
+# ReadmeS
+README_ES.md

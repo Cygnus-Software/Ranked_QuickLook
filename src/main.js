@@ -1,4 +1,4 @@
-const EXCLUDED_PLAYERS = ["S H I R O 1596", "ElSempaí", "EclipseWarrior"]
+const EXCLUDED_PLAYERS = ["S H I R O 1596", "ElSempaí", "EclipseWarrior", "Lord Nayus"]
 
 const express = require("express");
 const bodyParser = require('body-parser');
@@ -6,22 +6,26 @@ const app = express();
 
 app.use(bodyParser.urlencoded({ extended: false }));
 
-app.use(bodyParser.json());let usuario = {
- nombre:'',
- apellido: ''
-};let respuesta = {
- error: false,
- codigo: 200,
- mensaje: ''
+app.use(bodyParser.json());
+
+let usuario = {
+  nombre:'',
+  apellido: ''
+};
+
+let respuesta = {
+  error: false,
+  codigo: 200,
+  mensaje: ''
 };
 
 app.get('/', function(req, res) {
- respuesta = {
-  error: false,
-  codigo: 200,
-  mensaje: 'Miau =^._.^= /'
- };
- res.send(respuesta);
+  respuesta = {
+    error: false,
+    codigo: 200,
+    mensaje: 'Miau =^._.^= /'
+  };
+  res.send(respuesta);
 });
 
 app.get('/agus', function(req, res) {
@@ -29,8 +33,8 @@ app.get('/agus', function(req, res) {
     error: false,
     codigo: 200,
     mensaje: 'ʕ•㉨•ʔ'
-   };
-   res.send(respuesta);
+  };
+  res.send(respuesta);
 });
 
 app.get('/vale', function(req, res) {
@@ -38,8 +42,8 @@ app.get('/vale', function(req, res) {
     error: false,
     codigo: 200,
     mensaje: '≧◉ᴥ◉≦'
-   };
-   res.send(respuesta);
+  };
+  res.send(respuesta);
 });
 
 app.get('/ale', function(req, res) {
@@ -47,8 +51,8 @@ app.get('/ale', function(req, res) {
     error: false,
     codigo: 200,
     mensaje: '(҂⌣̀_⌣́)'
-   };
-   res.send(respuesta);
+  };
+  res.send(respuesta);
 });
 
 // app.get('/usuario', function (req, res) {
@@ -167,5 +171,5 @@ app.get('/ale', function(req, res) {
 // });
 
 app.listen(3000, () => {
- console.log("El servidor está inicializado en el puerto 3000");
+  console.log("El servidor está inicializado en el puerto 3000");
 });
