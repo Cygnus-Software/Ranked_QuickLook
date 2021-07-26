@@ -3,49 +3,15 @@
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/streetturtle/awesome-wm-widgets/luacheck)
 
 # Ranked QuickLook
-
+> This app helps to analyze League of Legends matchups and at the end of the game shows performance about your play, lane, and champion with tips.
 # Index
 
-- [Ranked QuickLook](#ranked-quicklook)
-- [Index](#index)
-- [To Do](#to-do)
+- [To Do](#ToDo.md)
 - [Information Gathered](#information-gathered)
-
-# To Do
-
-- [x] Obtain API permission
-  - [x] Add group members in Riot dev
-  - [x] Add API Token in GitHub repository [[Issue]](https://github.com/Cygnus-Software/Ranked_QuickLook/issues/5)
-- [x] Define programamming language (frontend and backend): Node.js
-- [ ] Investigate package in npm [[Issue]](https://github.com/Cygnus-Software/Ranked_QuickLook/issues/8)
-- [X] Parse raw input
-- [ ] Investigate and document differents licenses [[Issue]](https://github.com/Cygnus-Software/Ranked_QuickLook/issues/4)
-  - [ ] Define license
-  - [ ] Add license
-- [ ] List API
-  - [ ] rules
-  - [ ] limits
-  - [ ] permissions
-  - [x] rate limits
-  - [ ] endpoints that we have
-  - [ ] libraries for Javascripts
-- [ ] Define framework to use
-- [ ] Define DB to use
-- [ ] Define hosting to use
-- [ ] Get data from each player
-- [ ] Parse data from each player
-- [ ] Raise alerts for special cases
-  - [ ] Duos
-  - [ ] Too many loses
-- [x] Define First MVP [[Issue]](https://github.com/Cygnus-Software/Ranked_QuickLook/issues/1)
-- [ ] Investigate about Wiki in GitHub [[Issue]](https://github.com/Cygnus-Software/Ranked_QuickLook/issues/2)
-- [ ] Investigate about project board [[Issue]](https://github.com/Cygnus-Software/Ranked_QuickLook/issues/6)
-- [ ] Define if we want to create a Discord Server for support
-- [ ] Propose arquitectures about app
-  - [ ] Define arquitecture about app and scale
-- [ ] Define if create a *"To Do"* file when the app is finished. Also define if we can use a **wiki** To Do with Git Actions
-- [ ] Finished first MVP
-- [x] Add dynamic contributors [[Issue]](https://github.com/Cygnus-Software/Ranked_QuickLook/issues/7)
+- [Requirements](#Requirements)
+- [Mobile version](#Mobile-version)
+- [FAQs](#FAQs)
+- [Contributors](#Contributors)
 
 # Information Gathered
 - KDA trends
@@ -66,6 +32,32 @@
   - Low KDA
   - Consecutive Looses
 
+# Requirements, languages and frameworks
+- [Heroku CLI v7.x](https://devcenter.heroku.com/articles/heroku-cli#download-and-install)
+  > heroku
+- [Nodejs v16.5.0](https://nodejs.org/en/)
+  > node --version
+- [Express v4.x](https://expressjs.com/)
+  > npm install express --save
+- [Reactjs v17.0.2](https://reactjs.org/)
+- Testing:
+  - [React Resting Library](https://github.com/testing-library/react-testing-library)
+  - [Testing recipes](https://reactjs.org/docs/testing-recipes.html)
+  - [Testing environments](https://reactjs.org/docs/testing-environments.html)
+  <!--- (https://testing-library.com/react) --->
+  - [jsdom](https://github.com/jsdom/jsdom)
+  - [global-jsdom](https://github.com/modosc/global-jsdom)
+  - [jest](https://jestjs.io/)
+  - [jest-enviroment-jsdom](https://www.npmjs.com/package/jest-environment-jsdom)
+  - [Enzyme](https://enzymejs.github.io/enzyme/)
+  - [ava](https://github.com/avajs/ava)
+  - [mocha](https://mochajs.org/)
+  - [supertest](https://github.com/visionmedia/supertest)
+- [npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b)
+
+# Mobile version
+[Ranked QuickLook Mobile](https://github.com/Cygnus-Software/Ranked_QuickLook_Mobile)
+
 # FAQs
 <details>
   <summary>Why do you want to do this app?</summary>
@@ -76,5 +68,5 @@
 
 # Contributors
 <a href="https://github.com/Cygnus-Software/Ranked_QuickLook/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Cygnus-Software/Ranked_QuickLook" height=50 width=50/>
+  <img src="https://contrib.rocks/image?repo=Cygnus-Software/Ranked_QuickLook"/>
 </a>
