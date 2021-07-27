@@ -1,0 +1,114 @@
+// app.get('/usuario', function (req, res) {
+//  response = {
+//   error: false,
+//   codigo: 200,
+//   message: '=^._.^= /'
+//  };
+//  if(usuario.nombre === '' || usuario.apellido === '') {
+//   response = {
+//    error: true,
+//    codigo: 501,
+//    message: 'El usuario no ha sido creado'
+//   };
+//  } else {
+//   response = {
+//    error: false,
+//    codigo: 200,
+//    message: 'response del usuario',
+//    response: usuario
+//   };
+//  }
+//  res.send(response);
+// });
+
+// app.post('/usuario', function (req, res) {
+//  if(!req.body.nombre || !req.body.apellido) {
+//   response = {
+//    error: true,
+//    codigo: 502,
+//    message: 'El campo nombre y apellido son requeridos'
+//   };
+//  } else {
+//   if(usuario.nombre !== '' || usuario.apellido !== '') {
+//    response = {
+//     error: true,
+//     codigo: 503,
+//     message: 'El usuario ya fue creado previamente'
+//    };
+//   } else {
+//    usuario = {
+//     nombre: req.body.nombre,
+//     apellido: req.body.apellido
+//    };
+//    response = {
+//     error: false,
+//     codigo: 200,
+//     message: 'Usuario creado',
+//     response: usuario
+//    };
+//   }
+//  }
+
+//  res.send(response);
+// });
+
+// app.put('/usuario', function (req, res) {
+//  if(!req.body.nombre || !req.body.apellido) {
+//   response = {
+//    error: true,
+//    codigo: 502,
+//    message: 'El campo nombre y apellido son requeridos'
+//   };
+//  } else {
+//   if(usuario.nombre === '' || usuario.apellido === '') {
+//    response = {
+//     error: true,
+//     codigo: 501,
+//     message: 'El usuario no ha sido creado'
+//    };
+//   } else {
+//    usuario = {
+//     nombre: req.body.nombre,
+//     apellido: req.body.apellido
+//    };
+//    response = {
+//     error: false,
+//     codigo: 200,
+//     message: 'Usuario actualizado',
+//     response: usuario
+//    };
+//   }
+//  }
+
+//  res.send(response);
+// });
+
+// app.delete('/usuario', function (req, res) {
+//  if(usuario.nombre === '' || usuario.apellido === '') {
+//   response = {
+//    error: true,
+//    codigo: 501,
+//    message: 'El usuario no ha sido creado'
+//   };
+//  } else {
+//   response = {
+//    error: false,
+//    codigo: 200,
+//    message: 'Usuario eliminado'
+//   };
+//   usuario = {
+//    nombre: '',
+//    apellido: ''
+//   };
+//  }
+//  res.send(response);
+// });
+
+// app.use(function(req, res, next) {
+//  response = {
+//   error: true,
+//   codigo: 404,
+//   message: 'URL no encontrada'
+//  };
+//  res.status(404).send(response);
+// });
