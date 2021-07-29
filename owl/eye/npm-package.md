@@ -1,4 +1,4 @@
-> # MENU
+# MENU
 
 - [What is npm?](#what-is-npm)
 - [Intro](#intro)
@@ -11,31 +11,31 @@
 - [Sharing Your Software](#sharing-your-software)
 - [Publishing a Package](#publishing-a-package)
 
-> # What is npm?
+# What is npm?
 
-> ## ~ Intro ~
+## Intro
 
     This module provides an easy and simple way to export package.json data.
 
-> ## ~ Installation ~
+## Installation
 
 ```bash
 $ npm install package
 ```
 
-> ## ~ Usage ~
+## Usage
 
     var package = require('package')(module); // contains package.json data.
     var yourAwesomeModule = {};
     yourAwesomeModule.version = package.version;
 
-> ## ~ Tests ~
+## Tests
 
 ```bash
 $ make test
 ```
 
-> ## ~ Software Package Manager ~
+## Software Package Manager
 
     The name npm (Node Package Manager) stems from when npm first was created as a package manager for Node.js.
 
@@ -45,7 +45,7 @@ $ make test
 
     At least two fields must be present in the definition file: name and version.
 
-> ## ~ Example ~
+## Example
 
 ```bash
 {
@@ -59,7 +59,7 @@ $ make test
 }
 ```
 
-> ## ~ Managing Dependencies ~
+## Managing Dependencies
 
     npm can manage dependencies.
 
@@ -67,33 +67,31 @@ $ make test
 
     Dependencies are also defined in package.json.
 
-> ## ~ Sharing Your Software ~
+## Sharing Your Software
 
     If you want to share your own software in the npm registry, you can sign in at:
 
 https://www.npmjs.com
 
-> ## ~ Publishing a Package ~
+## Publishing a Package
 
     You can publish any directory from your computer as long as the directory has a
     package.json file.
 
     Check if npm is installed:
 ```
-C:\>npm
+C:\pm
 ```
     Check if you are logged in:
 ```bash
-C:\>npm whoami
+C:\pm whoami
 ```
     If not, log in:
 ```bash
-C:\>npm login
-Username: <your username>
-Password: <your password>
-```
+C:\pm login
+Username: <your usernamePassword: <your password```
     Navigate to your project and publish your project:
 ```bash
-C:\Users\myuser>cd myproject
-C:\Users\myuser\myproject>npm publish
+C:\Users\myuserd myproject
+C:\Users\myuser\myprojectpm publish
 ```
