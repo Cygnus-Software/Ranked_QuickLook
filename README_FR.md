@@ -5,7 +5,7 @@
 - [À faire](#ÀFaire.md)
 - [Informations recueillies](#information-gathered)
 - [Exigences](#Exigences)
-- [Version mobile](#Version mobile)
+- [Version mobile](#version-mobile)
 - [FAQ](#FAQ)
 - [Contributeurs](#Contributeurs)
 
