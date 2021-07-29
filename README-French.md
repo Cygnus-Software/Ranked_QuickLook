@@ -56,11 +56,25 @@
 [Classé QuickLook Mobile] (https://github.com/Cygnus-Software/Ranked_QuickLook_Mobile)
 
 # FAQs
-<details>
-  <summary>Why do you want to do this app?</summary>
-  <br>
-      Write here!
-  <br>
+<details open>
+  <summary>Frequent questions</summary>
+  <ol>
+    <li>Pourquoi voulez-vous faire cette application ?</li>
+    <li>Qui sommes-nous?
+    Nous sommes 3 étudiants Famaf de l'UNC Cordoba Argentina, étudiant en Bachelor of Computer Science. </li>
+    <li>Quels matchs sont pris en compte pour calculer ces statistiques ?</li>
+    <li>Comment déterminez-vous le rôle qu'un joueur joue actuellement ?</li>
+    <li>Où récupérez-vous vos données ?</li>
+    <li>Quel est ce classement affiché à côté de mon classement actuel (or en solo par exemple) ?</li>
+    <li>Quel est ce rang affiché à côté de mon champion ?</li>
+    <li>L'application est gratuite ?</li>
+    <li>Je dois m'inscrire ?</li>
+    <li>Comment nous contacter ?</li>
+    <li>Comment supprimer l'application ?</li>
+    <li>L'application est-elle disponible dans tous les pays ?</li>
+    <li>Comment puis-je mettre à jour l'application ? </li>
+    <li>Que dois-je faire si j'ai des problèmes avec l'application ?</li>
+  </ol>
 </details>
 
 # contributeurs
