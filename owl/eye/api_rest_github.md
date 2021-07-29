@@ -31,7 +31,7 @@ GET /repos/octokit/octokit.rb
 
 La documentación proporciona un ejemplo de respuesta para cada método de la API. La respuesta de ejemplo ilustra todos los atributos que se regresan con ese método.
 
-> ### Representaciones detalladas
+### Representaciones detalladas
 
 Cuando recuperas un recurso individual, la respuesta incluye habitualmente todos los atributos para ese recurso. Esta es la representación "detallada" del recurso. (Nota que la autorización algunas veces influencia la cantidad de detalles que se incluyen en la representación).
 

@@ -55,29 +55,75 @@
   - [supertest](https://github.com/visionmedia/supertest)
 - [npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b)
 
+# Other languages
 # Mobile version
 [Ranked QuickLook Mobile](https://github.com/Cygnus-Software/Ranked_QuickLook_Mobile)
 
 # FAQs
-<details open>
-  <summary>Frequent questions</summary>
-  <ol>
-    <li>Why do you want to do this app?</li>
-    <li>Who we are?
-    We are 3 Famaf students from UNC Cordoba Argentina, studying Bachelor of Computer Science. </li>
-    <li>What matches are taken into account to compute those stats?</li>
-    <li>How do you determine what role a player is currently playing?</li>
-    <li>Where do you grab your data?</li>
-    <li>What is this rank displayed alongside my current ranking (gold in soloqueue for instance)?</li>
-    <li>What is this rank displayed alongside my champion?</li>
-    <li>The application is free?</li>
-    <li>I have to register?</li>
-    <li>How to contact us?</li>
-    <li>How do i delete the application?</li>
-    <li>Is the application available in all countries?</li>
-    <li>How can I update the application? </li>
-    <li>What do i do if i have problems with the application?</li>
-  </ol>
+
+<details>
+  <summary>Why do you want to do this app?</summary>
+  &nbsp Write here!
+</details>
+
+<details>
+  <summary>Who we are?</summary>
+  &nbsp We are 3 Famaf students from UNC Cordoba Argentina, studying Bachelor of Computer Science.
+</details>
+
+<details>
+  <summary>What matches are taken into account to compute those stats?</summary>
+  &nbsp Write here!
+</details>
+
+<details>
+  <summary>How do you determine what role a player is currently playing?</summary>
+  <div align=first>&nbsp Write here!</div>
+</details>
+
+<details>
+  <summary>Where do you grab your data?</summary>
+  &nbsp Write here!
+</details>
+
+<details>
+  <summary>What is this rank displayed alongside my current ranking (gold in soloqueue for instance)?</summary>
+  &nbsp Write here!
+</details>
+
+<details>
+  <summary>What is this rank displayed alongside my champion?</summary>
+  &nbsp Write here!
+</details>
+
+<details>
+  <summary>I have to register?</summary>
+  &nbsp Write here!
+</details>
+
+<details>
+  <summary>How to contact us?</summary>
+  &nbsp Write here!
+</details>
+
+<details>
+  <summary>How do i delete the application?</summary>
+  &nbsp Write here!
+</details>
+
+<details>
+  <summary>Is the application available in all countries?</summary>
+  &nbsp Write here!
+</details>
+
+<details>
+  <summary>How can I update the application?</summary>
+  &nbsp Write here!
+</details>
+
+<details>
+  <summary>What do i do if i have problems with the application?</summary>
+  &nbsp Write here!
 </details>
 
 # Contributors

@@ -1,4 +1,4 @@
-> # MENU
+# Index
 - [Quickstart for GitHub Actions](#quickstart-for-github-actions)
   - [Introduction](#introduction)
   - [Creating your first workflow](#creating-your-first-workflow)
@@ -18,9 +18,9 @@
 - [Using the template repository](#using-the-template-repository)
 - [Bibliography](#bibliography)
 
-> # ~ Quickstart for GitHub Actions ~
+# Quickstart for GitHub Actions
 
-> ## ~ Introduction ~
+## Introduction
 
 You only need a GitHub repository to create and run a GitHub Actions workflow.
 In this guide, you'll add a workflow that demonstrates some of the essential
@@ -30,7 +30,7 @@ The following example shows you how GitHub Actions jobs can be automatically
 triggered, where they run, and how they can interact with the code in your
 repository.
 
-> ## ~ Creating your first workflow ~
+## Creating your first workflow
 
     1. From your repository on GitHub, create a new file in the .github/workflows directory named github-actions-demo.yml.
     2.Copy the following YAML contents into the github-actions-demo.yml file:
@@ -61,7 +61,7 @@ jobs:
 Committing the workflow file to a branch in your repository triggers the push
 event and runs your workflow.
 
-> ## ~ Viewing your workflow results ~
+## Viewing your workflow results
 
     1. En GitHub, visita la página principal del repositorio.
     2. Debajo del nombre de tu repositorio, da clic en Acciones. Pestaña de acciones en la navegación del repositorio principal
@@ -90,7 +90,7 @@ event and runs your workflow.
 
 ---
 
-> # ~ Repository Templates Meets GitHub Actions ~
+# Repository Templates Meets GitHub Actions
 
     GitHub introduced Repository Templates giving users an easy way to share
     boilerplate for their projects. This feature is fantastic, but lacking
@@ -104,7 +104,7 @@ event and runs your workflow.
     Wouldn't it be helpful if you could specify the project name, version, or
     author which is then templated into the resulting new repository?
 
-> ## ~ GitHub Actions can be much more than Ci-Cd ~
+## GitHub Actions can be much more than Ci-Cd
 
     The primary usage of GitHub Actions is CI/CD, but it offers much more than
     that. I think of GitHub Actions as a compute service running on top of GitHub’s
@@ -113,7 +113,7 @@ event and runs your workflow.
     range of use cases. In combination with repository templates you can make
     template variables work.
 
-> ## ~ Project scaffolding meets GitHub Actions ~
+## Project scaffolding meets GitHub Actions
 
     The main problem with any scaffolding tool is that you have to install it on
     your computer. Such tools often depend on a specific language and version
@@ -145,7 +145,7 @@ event and runs your workflow.
 
 </p>
 
-> ## ~ Drawback ~
+## Drawback
 
     There is one limitation, if the template contains one or more GitHub Actions
     workflow files, the re-initializion will fail with Git Error: Refusing to
@@ -173,7 +173,7 @@ event and runs your workflow.
 
 ---
 
-> ## ~ Generate new repositories with repository templates ~
+## Generate new repositories with repository templates
 
     Sharing boilerplate code across codebases is a constant pattern in software
     development. Bootstrapping a new project with our favorite tools and
@@ -208,9 +208,9 @@ event and runs your workflow.
 
 ---
 
-> ## ~ Dynamically Create Projects With Github Templates and Actions ~
+## Dynamically Create Projects With Github Templates and Actions
 
-> ## ~ The Code ~
+## The Code
     I have a workflow called init.yml. This is the workflow that runs when a new
     repository is created and will create the project.
 
@@ -222,7 +222,7 @@ event and runs your workflow.
     branch being created is master. There might be some other edge cases that
     might trigger it and run all the actions but I’ve not come across them yet.
 
-> ## ~ Setting up the workflowPermalink ~
+## Setting up the workflowPermalink
 
     As I mentioned, I want this to run on a create event.
 
@@ -234,7 +234,7 @@ name: Init Project
 on: create
 ```
 
-> ## ~ Run the job only if the branch is masterPermalink ~
+## Run the job only if the branch is masterPermalink
 
     The if: condition is set on the entire job labelled build. I’m using the
     environment variable github.ref and checking that it is equal to the ref for master.
@@ -252,7 +252,7 @@ jobs:
     runs-on: ubuntu-latest
 ```
 
-> ## ~ Setup .NET Core projects ~
+## Setup .NET Core projects
 
     At this point, the workflow is running the standard steps to configure it for .NET Core
 ```
@@ -288,7 +288,7 @@ jobs:
 
 ```
 
-> ## ~ Add, Commit and Push Changes as part of the workflow ~
+# Add, Commit and Push Changes as part of the workflow
 
     Of course what we’ve done here is create a bunch of files that we actually want
     to commit back to our repo. To do this, I use the actions-x/commit action. You
@@ -297,7 +297,7 @@ jobs:
     - name: Git Commit/Push Changes
       uses: actions-x/commit@v1
     ```
-> ## ~ Bringing it all together ~
+## Bringing it all together
 ```
 name: Init Project
 
@@ -336,7 +336,7 @@ jobs:
 
 ```
 
-> ## ~ Using the template repository ~
+## Using the template repository
 
     First of all, we need to tell Github the repository is a template repo. This is
     done by going to Settings and checking the Template repository box.
@@ -400,7 +400,7 @@ jobs:
           ThisIsMy.API.UnitTests.csproj
           UnitTest1.cs
   ```
-> ## ~ Bibliography ~
+## Bibliography
 
 
 https://docs.github.com/es/actions/quickstart#introduction

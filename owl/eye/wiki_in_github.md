@@ -1,4 +1,4 @@
-> ## MENU
+## Index
 
 - [Creating your wiki](#creating-your-wiki)
 - [Adding content](#adding-content)
@@ -11,14 +11,13 @@
 - [About wiki filenames](#about-wiki-filenames)
 - [Bibliography](#bibliography)
 
-> # Creating your wiki
+# Creating your wiki
 
     Every repository on GitHub comes with a wiki. After you’ve created a repository,
     you can set up the included wiki through the sidebar navigation. Starting your
     wiki is simply a matter of clicking the wiki button and creating your first page.
 
-> ## ~ Adding content ~
-
+## Adding content
     Wiki content is designed to be easily editable. You can add or change content on
     any wiki page by clicking the Edit button located in the upper right corner of
     each page. This opens up the wiki editor.
@@ -35,7 +34,7 @@
     the full page history where you can compare revisions or see a detailed list
     of edits over time.
 
-> ## ~ Adding pages ~
+## Adding pages
 
     You can add additional pages to your wiki by selecting New Page in the upper
     right corner. By default, each page you create is included automatically in
@@ -48,7 +47,7 @@
     If it is missing, an automatically generated table of contents will be shown
     instead.
 
-> ## ~ Syntax highlighting ~
+## Syntax highlighting
 
     Wiki pages support automatic syntax highlighting of code for a wide range of
     languages by using the following syntax:
@@ -60,7 +59,7 @@
     The block contents should be indented at the same level as the opening backticks.
     The block must end with three backticks indented at the same level as the opening backticks.
 
-> ## ~ Adding or editing wiki pages ~
+## Adding or editing wiki pages
 
     You can add and edit wiki pages directly on GitHub or locally using the command line.
 
@@ -68,7 +67,7 @@
     organizations, and in public and private repositories with GitHub Pro, GitHub
     Team, GitHub Enterprise Cloud and GitHub Enterprise Server.
 
-> ### ~ Adding wiki pages ~
+### Adding wiki pages
 
     1. On GitHub, navigate to the main page of the repository.
     2. Under your repository name, click Wiki.
@@ -78,7 +77,7 @@
     6. Type a commit message describing the new file you’re adding.
     7. To commit your changes to the wiki, click Save Page.
 
-> ### ~ Editing wiki Pages ~
+### Editing wiki Pages
 
     1. On GitHub, navigate to the main page of the repository.
     2. Under your repository name, click
@@ -87,7 +86,7 @@
     5. Type a commit message describing your changes.
     6. To commit your changes to the wiki, click Save Page.
 
-> ## ~ Adding or editing wiki pages locally ~
+## Adding or editing wiki pages locally
 
     Wikis are part of Git repositories, so you can make changes locally and push them to your repository using a Git workflow.
     Cloning wikis to your computer
@@ -100,14 +99,14 @@
 ```
     Once you have cloned the wiki, you can add new files, edit existing ones, and commit your changes. You and your collaborators can create branches when working on wikis, but only changes pushed to the default branch will be made live and available to your readers.
 
-> ## ~ About wiki filenames ~
+## About wiki filenames
 
     The filename determines the title of your wiki page, and the file extension determines how your wiki content is rendered.
 
     Wikis use our open-source Markup library to convert the markup, and it determines which converter to use by a file's extension. For example, if you name a file foo.md or foo.markdown, wiki will use the Markdown converter, while a file named foo.textile will use the Textile converter.
 
-    Don't use the following characters in your wiki page's titles: \ / : * ? " < > |. Users on certain operating systems won't be able to work with filenames containing these characters. Be sure to write your content using a markup language that matches the extension, or your content won't render properly.
+    Don't use the following characters in your wiki page's titles: \ / : * ? " < |. Users on certain operating systems won't be able to work with filenames containing these characters. Be sure to write your content using a markup language that matches the extension, or your content won't render properly.
 
-> ## ~ Bibliography ~
+## Bibliography
 
 https://docs.github.com/en/communities/documenting-your-project-with-wikis/adding-or-editing-wiki-pages

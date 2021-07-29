@@ -1,4 +1,4 @@
-> ## MENU
+## Index
 
 - [Creating a project board ](#creating-a-project-board)
 - [Creating a user-owned project board](#creating-a-user-owned-project-board)
@@ -6,7 +6,7 @@
 - [Creating a repository project board](#creating-a-repository-project-board)
 - [Bibliography](#bibliography)
 
-> # ~ Creating a project board ~
+# Creating a project board
 
     Project boards can be used to create customized workflows to suit your needs, like tracking and prioritizing specific feature work, comprehensive roadmaps, or even release checklists.
 
@@ -22,7 +22,7 @@
 
     You can use GitHub's API to import a project board.
 
-> ## ~ Creating a user-owned project board ~
+## Creating a user-ownedp roject board
 
     1. In the top right corner of GitHub, click your profile photo, then click Your profile.
     2. On the top of your profile page, in the main navigation, click Projects.
@@ -39,7 +39,7 @@
     13. Click Create column.
     14. Add columns to best suit your workflow.
 
-> ## ~ Creating an organization-wide project board ~
+## Creating an organization-wide project board
 
     1. In the top right corner of GitHub, click your profile photo, then click Your organizations.
     2. Click the name of your organization.
@@ -57,7 +57,7 @@
     14. Click Create column.
     15. Add columns to best suit your workflow.
 
-> ## ~ Creating a repository project board ~
+## Creating a repository project board
 
     1. On GitHub, navigate to the main page of the repository.
     2. Under your repository name, click Projects.
@@ -72,5 +72,5 @@
     11. Click Create column.
     12. Add columns to best suit your workflow.
 
-> ## ~ Bibliography ~
+## Bibliography
 https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/creating-a-project-board#creating-an-organization-wide-project-board
