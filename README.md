@@ -129,4 +129,5 @@
 # Contributors
 <a href="https://github.com/Cygnus-Software/Ranked_QuickLook/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Cygnus-Software/Ranked_QuickLook"/>
+  <img src="https://avatars.githubusercontent.com/u/70723879?v=4" width="66" height="66" />
 </a>
