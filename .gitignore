@@ -5,7 +5,6 @@ ignore_*
 
 # Nodejs and Express
 package-lock.json
-package.json
 node_modules/
 
 # In progress
