@@ -32,28 +32,9 @@
   - Low KDA
   - Consecutive Looses
 
-# Requirements, languages and frameworks
-- [Heroku CLI v7.x](https://devcenter.heroku.com/articles/heroku-cli#download-and-install)
-  > heroku
-- [Nodejs v16.5.0](https://nodejs.org/en/)
-  > node --version
-- [Express v4.x](https://expressjs.com/)
-  > npm install express --save
-- [Reactjs v17.0.2](https://reactjs.org/)
-- Testing:
-  - [React Resting Library](https://github.com/testing-library/react-testing-library)
-  - [Testing recipes](https://reactjs.org/docs/testing-recipes.html)
-  - [Testing environments](https://reactjs.org/docs/testing-environments.html)
-  <!--- (https://testing-library.com/react) --->
-  - [jsdom](https://github.com/jsdom/jsdom)
-  - [global-jsdom](https://github.com/modosc/global-jsdom)
-  - [jest](https://jestjs.io/)
-  - [jest-enviroment-jsdom](https://www.npmjs.com/package/jest-environment-jsdom)
-  - [Enzyme](https://enzymejs.github.io/enzyme/)
-  - [ava](https://github.com/avajs/ava)
-  - [mocha](https://mochajs.org/)
-  - [supertest](https://github.com/visionmedia/supertest)
-- [npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b)
+# Developer guide
+
+- [Requirements](/developers/requeriments.md)
 
 # Other languages
 # Mobile version
@@ -131,5 +112,6 @@
   <img src="https://contrib.rocks/image?repo=Cygnus-Software/Ranked_QuickLook"/>
 </a>
 
+---
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.

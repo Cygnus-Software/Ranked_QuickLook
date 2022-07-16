@@ -6,6 +6,7 @@ ignore_*
 # Nodejs and Express
 package-lock.json
 node_modules/
+jspm_packages/
 
 # In progress
 src/index.html
@@ -17,9 +18,12 @@ todo.md
 # Heroku
 Procfile
 
-# ReadmeS
-README_ES.md
-
 # Early React
 /index.js
 /App.js
+
+# esbuild directories
+.esbuild
+
+# Serverless directories
+.serverless
