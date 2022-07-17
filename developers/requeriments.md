@@ -1,7 +1,8 @@
 # Requirements, languages and frameworks
 
+- [Node.js](https://nodejs.dev/) version: `>=14.15.x`
+- [npm](https://www.npmjs.com/)
 - [Serverless](https://www.serverless.com/framework/docs/getting-started) version: `3.21.x`
-- 
 
 <!-- - [Heroku CLI v7.x](https://devcenter.heroku.com/articles/heroku-cli#download-and-install)
   > heroku
@@ -26,6 +27,10 @@
 - [npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) -->
 
 # Instalation
+
+Pre requeriments:
+
+- Clone repository
 
 **Node.js**
 
@@ -53,13 +58,13 @@ npm -v
 **Serverless**
 
 ```bash
-npm install -g serverless@3.21
+npm i -g serverless@3.21
 ```
 
-****
+**Dynamodb**
 
 ```bash
-npm install && sls dynamodb install
+npm i && sls dynamodb install
 ```
 
 Recomendation: GUI DynamoDB
@@ -83,3 +88,8 @@ sudo apt-get update
 ```bash
 sudo apt-get install awscli
 ```
+
+# Links
+
+- https://www.npmjs.com/package/serverless-plugin-typescript
+- https://github.com/serverless/serverless-plugin-typescript

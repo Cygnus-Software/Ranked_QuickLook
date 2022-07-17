@@ -4,6 +4,7 @@
 
 # Ranked QuickLook
 > This app helps to analyze League of Legends matchups and at the end of the game shows performance about your play, lane, and champion with tips.
+
 # Index
 
 - [To Do](#ToDo.md)
@@ -37,7 +38,11 @@
 - [Requirements](/developers/requeriments.md)
 
 # Other languages
+
+## [Español](README_ES.md)
+
 # Mobile version
+
 [Ranked QuickLook Mobile](https://github.com/Cygnus-Software/Ranked_QuickLook_Mobile)
 
 # FAQs

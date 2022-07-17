@@ -1,6 +1,8 @@
 import type { AWS } from '@serverless/typescript';
 
-import hello from '@functions/hello';
+// import hello from '@functions/hello';
+import schema from '@functions/hello/schema';
+import getPlayersSch from '@res/schemas/getPlayer';
 
 const serverlessConfiguration: AWS = {
   service: 'aws-serverless-typescript-api',
@@ -19,7 +21,40 @@ const serverlessConfiguration: AWS = {
     },
   },
   // import the function via paths
-  functions: { hello },
+  functions: {
+    hello: {
+      handler: 'src/functions/hello/handler.main',
+      events: [
+        {
+          http: {
+            method: 'post',
+            path: 'hello',
+            request: {
+              schemas: {
+                'application/json': schema,
+              }
+            }
+          },
+        }
+      ]
+    },
+    players: {
+      handler: 'src/functions/players/getPlayers.handler',
+      events: [
+        {
+          http: {
+            method: 'post',
+            path: 'players',
+            request: {
+              schemas: {
+                'application/json': getPlayersSch,
+              }
+            }
+          },
+        }
+      ]
+    }
+  },
   package: { individually: true },
   custom: {
     esbuild: {
